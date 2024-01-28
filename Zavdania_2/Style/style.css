@@ -1,0 +1,68 @@
+table,th,td {
+	border-collapse: collapse;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #2a2a2a;
+	font-weight: bold;
+}
+
+th{
+	background-color: orange;
+	font-weight: bold;
+}
+th:hover{
+	background-color: rgb(219, 145, 8);
+	color: rgb(131, 105, 57);
+}
+
+/* ----- CLASS TABLE ----- */
+
+.first-lessons{
+	background-color: pink;
+}
+.second-lessons{
+	background-color:rgb(132, 132, 255);
+}
+.third-lessons{
+	background-color: #70fca5;
+}
+
+.fourth-lessons{
+	background-color: #fcfa70;
+}
+.fifth-lessons{
+	background-color: #bc92ff;
+}
+
+/* ------- HOVER ------- */
+
+.first-lessons:hover{
+	background-color: rgb(240, 164, 176);
+	color: #4c4c4c;
+}
+.second-lessons:hover{
+	background-color:rgb(124, 124, 240);
+	color: #4c4c4c;
+}
+.third-lessons:hover{
+	background-color: #63e796;
+	color: #4c4c4c;
+}
+
+.fourth-lessons:hover{
+	background-color: #e7e562;
+	color: #4c4c4c;
+}
+.fifth-lessons:hover{
+	background-color: #a67ce9;
+	color: #4c4c4c;
+}
+tr:hover{
+	border: 3px dotted #fffefe;
+}
+td:hover{
+	border: 5px dotted #f09191;
+}
+th:hover{
+	border: 5px dotted #f09191;
+}
