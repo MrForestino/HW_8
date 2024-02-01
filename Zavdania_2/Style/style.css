@@ -16,44 +16,39 @@ th:hover{
 }
 
 /* ----- CLASS TABLE ----- */
-
-.first-lessons{
+td:first-child{
 	background-color: pink;
 }
-.second-lessons{
+td:nth-child(2){
 	background-color:rgb(132, 132, 255);
 }
-.third-lessons{
+td:nth-child(3){
 	background-color: #70fca5;
 }
-
-.fourth-lessons{
+td:nth-child(4){
 	background-color: #fcfa70;
 }
-.fifth-lessons{
+td:nth-child(5){
 	background-color: #bc92ff;
 }
-
 /* ------- HOVER ------- */
-
-.first-lessons:hover{
+td:first-child:hover{
 	background-color: rgb(240, 164, 176);
 	color: #4c4c4c;
 }
-.second-lessons:hover{
+td:nth-child(2):hover{
 	background-color:rgb(124, 124, 240);
 	color: #4c4c4c;
 }
-.third-lessons:hover{
+td:nth-child(3):hover{
 	background-color: #63e796;
 	color: #4c4c4c;
 }
-
-.fourth-lessons:hover{
+td:nth-child(4):hover{
 	background-color: #e7e562;
 	color: #4c4c4c;
 }
-.fifth-lessons:hover{
+td:nth-child(5):hover{
 	background-color: #a67ce9;
 	color: #4c4c4c;
 }
